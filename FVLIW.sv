@@ -1,6 +1,3 @@
-/**
- * Модуль верхнего уровня для проверки процессора MIPS.
- */
 module FVLIW(input clk,
 		output [7:0] v,
 		output [3:0] v_enable,
