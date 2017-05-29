@@ -17,6 +17,10 @@ Simply import the project in the Quartus Prime and build it. That should work.
 - Now we can display only one same digit for all 7-segment indicators
 - Have only one single core
 
+## "wkhs" (who-knows how to sole) problems
+
+- avoid Quartus automatic optimization (reduces generated design by removing and simplifying unused modules/parts) (e.g. for simple 2-command program for showing a single digit on the 7-seg indicator the whole microcontroller is replaced by a single constant of the given digit).
+
 ## License
 
 Copyright 2017 Sergey Dubovyk
